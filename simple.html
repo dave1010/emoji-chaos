@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <title>Chaos</title>
+    <link rel="stylesheet" href="css/admin.css">
+
+    <script src="js/util.js"></script>
+    <script src="js/participants.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/participantQuestions.js"></script>
+    <script src="js/nameSelection.js"></script>
+
+    <script src="js/htmlUI.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="participantSelection">
+        <h1>Welcome to CHAOS!</h1>
+        <p>The "fun" team game where you probably don't have the answer</p>
+        <p></p>
+        <h1>What's Your Name?</h1>
+        <select id="participantList">
+        </select>
+        <button onclick="selectParticipant()">Select</button>
+    </div>
+
+    <div id="teamInfo" style="display:none;">
+        <h1>Your Team: <span id="teamName"></span></h1>
+        <ul id="teamMembers">
+        </ul>
+        <hr>
+        <div id="help">
+            <h1>How to play</h1>
+            <ol>
+                <li>Read the question</li>
+                <li>You, or 1 of your team mates, will have an emoji with the correct answer</li>
+                <li>Select the correct emoji</li>
+                <li><b>Make sure your team mates aren't left behind!</b></li>
+            </ol>
+        </div>
+        <button onclick="startGame()">I'M READY!</button>
+    </div>
+
+    <div id="questionDiv" style="display:none;">
+    </div>
+</body>
+</html>

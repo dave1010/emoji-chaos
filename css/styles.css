@@ -1,0 +1,10 @@
+.correct-notice {
+    color: green;
+    font-weight: bold;
+}
+
+.warning-notice {
+    color: red;
+    font-weight: bold;
+}
+
