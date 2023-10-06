@@ -23,7 +23,7 @@ let people = [
     // "Jon G",
     "Chris S",
     // "Jack R",
-    "Callum T",
+    // "Callum T",
     "Luke W",
     "Reece M",
     "Shane dJ",
