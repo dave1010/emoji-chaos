@@ -26,6 +26,7 @@ function nextQuestion() {
         handleCurrentQuestion();
     } else {
         alert("Well done! Let everyone know that your team has finished.");
+        location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     }
 }
 
