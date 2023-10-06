@@ -23,7 +23,7 @@ let displayAnswers;
  * Triggers nextQuestion() after 3 seconds
  */
 function isCorrect() {
-    alert("Corect!\nDon't leave your team mates behind!");
+    alert("Corect!\nDon't leave your " + selectedParticipant.team + " team mates behind!");
     // Add a temporary correct notice
 
     // Remove the notice after a short time and move to the next question
